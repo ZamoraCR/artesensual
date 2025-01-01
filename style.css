@@ -1,6 +1,6 @@
 /* Estilo para el contenedor con imagen de fondo */
 .background-container {
-    background-image: url('/public/img/bk4.jpg!d'); /* Reemplaza con la ruta de tu imagen */
+    background-image: url('bk4.jpg!d'); /* Reemplaza con la ruta de tu imagen */
     background-size: cover; /* Hace que la imagen cubra toda el área del contenedor */
     background-position: center center; /* Centra la imagen */
     background-attachment: fixed; /* Hace que la imagen se quede fija al hacer scroll */
