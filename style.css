@@ -1,0 +1,38 @@
+/* Estilo para el contenedor con imagen de fondo */
+.background-container {
+    background-image: url('/public/img/bk4.jpg!d'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra toda el área del contenedor */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen se quede fija al hacer scroll */
+    height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    color: white; /* Color de texto dentro del contenedor */
+}
+
+/* Estilo para el contenido (hace el fondo semitransparente) */
+.content {
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo para las secciones dentro del contenedor con transparencia */
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco con opacidad */
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo de las tarjetas con opacidad */
+    border: none; /* Sin bordes para las tarjetas */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+/* Opcional, puedes agregar un sombreado sutil para el texto si es necesario */
+.content h1, .content p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
